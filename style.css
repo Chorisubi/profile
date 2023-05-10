@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:ital@1&family=Montserrat&family=Quicksand&family=Sacramento&family=Ubuntu:ital@1&display=swap');
+
+.headers {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  line-height: 15px;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+img {
+  opacity: 80%;
+  border-radius: 100%;
+  -webkit-box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+  -moz-box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+  box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 5%;
+  margin: 5%;
+  display: flex;
+  justify-content:space-around;
+  -webkit-box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+  -moz-box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+  box-shadow: 3px 1.5px 17px 4.5px #dddddd;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 40px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+
+.card-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.pfp {
+  display: flex;
+}
+
+.web-button {
+  text-decoration: none;
+  color: #F1F6F9;
+  background-color: #212A3E;
+  padding: 15px;
+  align-self: center;
+  border-radius: 5%;
+}
+
+.web-button:hover {
+  background-color: #394867;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+  line-height: 10;
+  text-align: center;
+  padding-top: 30px;
+}
+
+i {
+  font-size: 100px;
+  align-items: center;
+}
+
+i:hover {
+  color: #212A3E;
+}
